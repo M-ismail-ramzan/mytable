@@ -1,0 +1,84 @@
+*{
+    margin-left: 1px;
+}
+
+
+.btn-table{
+    display: inline-block;
+    background-color: rgb(19, 170, 19);
+    color: white;
+    padding:8px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+
+.tableSetting1 tbody tr th{
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    border-collapse: collapse;
+    width: 209px;
+    word-break:break-all;
+    background-color: rgb(19, 170, 19);
+}
+
+.tableSetting1{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tableSetting2 tbody tr td{
+    border: 1px solid rgb(145, 142, 142);
+    color: rgb(92, 92, 92);
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    border-top: none;
+    width: 207px;
+    border-collapse: collapse;
+    word-break:break-all;
+}
+
+.tableSetting2{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.btn-delete{
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    color: red;
+}
+.btn-delete:hover{
+    color: rgb(105, 1, 1);
+}
+
+.inputTop tbody tr th input{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 213, 213);
+
+}
+.changeBtn{
+    background-color: red;
+}
+.textHeading{
+    text-align: center;
+    color: rgb(92, 92, 92);
+    margin-bottom: 1%;
+}
+/*@media only screen and (min-width: 768px) and (max-width: 959px)*/
+@media only screen and (max-width: 880px){
+    .inputTop tbody tr th{
+        display: block;
+        margin-top: 3px;
+    }
+    .tableSetting1 tbody tr td{
+
+    }
+    }
